@@ -1,0 +1,916 @@
+[gd_scene format=3 uid="uid://cee0obofovi54"]
+
+[ext_resource type="Script" uid="uid://i5m3gbslsx7q" path="res://connexion_llama.gd" id="1_1wc5a"]
+
+[node name="ConnexionLlama" type="Node" unique_id=1700019073]
+script = ExtResource("1_1wc5a")
+
+[node name="Bienvenue" type="Label" parent="." unique_id=424794500]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Accueil" type="Button" parent="." unique_id=1351831146]
+
+[node name="Regarder" type="Button" parent="Accueil" unique_id=1423213824]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="S\'inscrire" type="Button" parent="Accueil/Regarder" unique_id=278236934]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Discuter" type="Button" parent="Accueil/Regarder/S\'inscrire" unique_id=1288135960]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Soutenir" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter" unique_id=278499184]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Profil" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir" unique_id=1677208168]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="EspaceCreateur" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil" unique_id=1614288439]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Regles" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur" unique_id=757642195]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Calendrier" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles" unique_id=644759991]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Notifications" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier" unique_id=1494788411]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Partager" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications" unique_id=592841789]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Suivis" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager" unique_id=1491273138]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Rediffusions" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis" unique_id=1791167358]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Statistiques" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis/Rediffusions" unique_id=749201598]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="MesPreferences" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis/Rediffusions/Statistiques" unique_id=920831822]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="AideEtRegles" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis/Rediffusions/Statistiques/MesPreferences" unique_id=954649263]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="SignalerProbleme" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis/Rediffusions/Statistiques/MesPreferences/AideEtRegles" unique_id=1053719675]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="VoirMonProfil" type="Button" parent="Accueil/Regarder/S\'inscrire/Discuter/Soutenir/Profil/EspaceCreateur/Regles/Calendrier/Notifications/Partager/Suivis/Rediffusions/Statistiques/MesPreferences/AideEtRegles/SignalerProbleme" unique_id=520005356]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Liens" type="Button" parent="." unique_id=635577553]
+
+[node name="Discord" type="Button" parent="Liens" unique_id=68335806]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="YouTube" type="Button" parent="Liens/Discord" unique_id=837730673]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Twitch" type="Button" parent="Liens/Discord/YouTube" unique_id=2036118295]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Snapchat" type="Button" parent="Liens/Discord/YouTube/Twitch" unique_id=911809487]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Deezer" type="Button" parent="Liens/Discord/YouTube/Twitch/Snapchat" unique_id=1590969056]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Spotify" type="Button" parent="Liens/Discord/YouTube/Twitch/Snapchat/Deezer" unique_id=1572124981]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Chat" type="Button" parent="." unique_id=561571053]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ZoneMessages" type="RichTextLabel" parent="Chat" unique_id=235595754]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SaisieMessage" type="LineEdit" parent="Chat/ZoneMessages" unique_id=1997506357]
+layout_mode = 0
+offset_right = 68.5
+offset_bottom = 31.0
+
+[node name="Envoyer" type="Button" parent="Chat/ZoneMessages/SaisieMessage" unique_id=2106677428]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Emojis" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer" unique_id=529798530]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Fichiers" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis" unique_id=1600058827]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ListeMembres" type="VBoxContainer" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis/Fichiers" unique_id=599733236]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ParametresChat" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis/Fichiers/ListeMembres" unique_id=359549938]
+layout_mode = 2
+
+[node name="Liste_Connectes" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis/Fichiers/ListeMembres/ParametresChat" unique_id=132352472]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Mode_Lent" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis/Fichiers/ListeMembres/ParametresChat/Liste_Connectes" unique_id=1707807393]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Seulement_Abonnes" type="Button" parent="Chat/ZoneMessages/SaisieMessage/Envoyer/Emojis/Fichiers/ListeMembres/ParametresChat/Liste_Connectes/Mode_Lent" unique_id=1505742514]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Infos" type="Button" parent="." unique_id=1591921561]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Prochain Live" type="Label" parent="Infos" unique_id=1879530156]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Compteurs" type="Label" parent="Infos/Prochain Live" unique_id=1973305383]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Statut" type="Label" parent="Infos/Prochain Live/Compteurs" unique_id=430136407]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="StatutConnexion" type="OptionButton" parent="Infos/Prochain Live/Compteurs/Statut" unique_id=490544047]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 20.0
+
+[node name="MembresConnectes" type="Label" parent="Infos/Prochain Live/Compteurs/Statut/StatutConnexion" unique_id=1799803362]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Menu" type="Button" parent="." unique_id=1533992781]
+
+[node name="Langue" type="OptionButton" parent="Menu" unique_id=1726489574]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 20.0
+
+[node name="SousTitres" type="OptionButton" parent="Menu/Langue" unique_id=2117894224]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 20.0
+
+[node name="Theme" type="OptionButton" parent="Menu/Langue/SousTitres" unique_id=495453806]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 20.0
+
+[node name="NotifParam" type="OptionButton" parent="Menu/Langue/SousTitres/Theme" unique_id=2017851340]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 20.0
+
+[node name="EspaceCreateur" type="Button" parent="." unique_id=1061318710]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="TableauBord" type="Button" parent="EspaceCreateur" unique_id=1146538121]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ParametresGeneraux" type="Button" parent="EspaceCreateur/TableauBord" unique_id=584837401]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Roles Et Droits" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux" unique_id=803597971]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Confidentialite" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits" unique_id=1633804253]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Notifications" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite" unique_id=1801252008]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Deconnexion" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications" unique_id=1348971808]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Mes_Statistiques" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion" unique_id=689304659]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Gerer_Moderateurs" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques" unique_id=1871971878]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Regles_Et_Sanctions" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques/Gerer_Moderateurs" unique_id=528774646]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Decision" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques/Gerer_Moderateurs/Regles_Et_Sanctions" unique_id=1922301965]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Exporter_Mes_Donnees" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques/Gerer_Moderateurs/Regles_Et_Sanctions/Valider_Decision" unique_id=1461726694]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Contacter_Le_Fondateur" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques/Gerer_Moderateurs/Regles_Et_Sanctions/Valider_Decision/Exporter_Mes_Donnees" unique_id=602898768]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Tous_Signalements" type="Button" parent="EspaceCreateur/TableauBord/ParametresGeneraux/Roles Et Droits/Confidentialite/Notifications/Deconnexion/Mes_Statistiques/Gerer_Moderateurs/Regles_Et_Sanctions/Valider_Decision/Exporter_Mes_Donnees/Contacter_Le_Fondateur" unique_id=1571358498]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Personnalisation" type="Control" parent="." unique_id=796731941]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ChoisirFond" type="Button" parent="Personnalisation" unique_id=1855823049]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="FondVert" type="Button" parent="Personnalisation/ChoisirFond" unique_id=907336456]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Couleurs" type="Button" parent="Personnalisation/ChoisirFond/FondVert" unique_id=692076011]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ApparenceIA" type="Button" parent="Personnalisation/ChoisirFond/FondVert/Couleurs" unique_id=1300428135]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="LangueEtSousTitres" type="Button" parent="Personnalisation/ChoisirFond/FondVert/Couleurs/ApparenceIA" unique_id=484979563]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="NotificationsReglages" type="Button" parent="Personnalisation/ChoisirFond/FondVert/Couleurs/ApparenceIA/LangueEtSousTitres" unique_id=732767747]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Assistant_Fondateur" type="Control" parent="." unique_id=551983547]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Configurer_Fondateur" type="Button" parent="." unique_id=1599269709]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Tout" type="Button" parent="Configurer_Fondateur" unique_id=135998107]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Mot_Autorisation" type="Button" parent="Configurer_Fondateur/Voir_Tout" unique_id=359800426]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Liste_Mots_Interdits" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation" unique_id=934777450]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Bannir_Definitif" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits" unique_id=1655881769]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Supprimer_Message" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif" unique_id=813242573]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Silence_Temporaire" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message" unique_id=633858182]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Message_Retenue" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire" unique_id=2081172725]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Signaler_au_Fondateur" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue" unique_id=1536716170]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Zone_Lecture" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_au_Fondateur" unique_id=1840285150]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Poser_Question" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_au_Fondateur/Zone_Lecture" unique_id=1234653520]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Envoyer_Question" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_au_Fondateur/Zone_Lecture/Poser_Question" unique_id=572341031]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choix_Affichage" type="Button" parent="Configurer_Fondateur/Voir_Tout/Mot_Autorisation/Liste_Mots_Interdits/Bannir_Definitif/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_au_Fondateur/Zone_Lecture/Poser_Question/Envoyer_Question" unique_id=435434270]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Assistant_Streameur" type="Control" parent="." unique_id=1979490949]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Choisir_Voix_IA" type="Button" parent="Assistant_Streameur" unique_id=990571267]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Regler_Vitesse_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA" unique_id=1395160078]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Regler_Ton_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix" unique_id=675907037]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choisir_Sexe_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix" unique_id=657263302]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choisir_Langue_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix" unique_id=1997978280]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Utiliser_Sa_Propre_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix" unique_id=2141458318]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Enregistrer_Echantillon" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix" unique_id=1486658691]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Ecouter_Echantillon" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon" unique_id=1922621416]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Ma_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon" unique_id=748731150]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Reinitialiser_Voix" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix" unique_id=2011251616]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choisir_Avatar_Predefini" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix" unique_id=1733930877]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Importer_Avatar_Personnel" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini" unique_id=1124701479]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Regler_Taille_Avatar" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel" unique_id=1559202588]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choisir_Arriere_Plan" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar" unique_id=1901994040]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choisir_Expression" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan" unique_id=1182241582]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Sans_Avatar" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression" unique_id=2069740683]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Supprimer_Avatar" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar" unique_id=1050680888]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_Twitch" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar" unique_id=444297642]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_Discord" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch" unique_id=372112932]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_YouTube" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord" unique_id=957037654]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_X" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube" unique_id=914027595]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_Instagram" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X" unique_id=1261815643]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lien_Site" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram" unique_id=1868752892]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Tout_Cacher" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site" unique_id=1597268833]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Mes_Donnees_Privees" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher" unique_id=1711298362]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Configurer_Sa_Chaine" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees" unique_id=1406614827]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Ses_Phrases" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine" unique_id=1371496617]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Ses_Reponses" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine/Ses_Phrases" unique_id=361415068]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Gerer_Ses_Moderateurs" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine/Ses_Phrases/Voir_Ses_Reponses" unique_id=85040901]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Ses_Statistiques" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine/Ses_Phrases/Voir_Ses_Reponses/Gerer_Ses_Moderateurs" unique_id=432509674]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lier_Ses_Paiements" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine/Ses_Phrases/Voir_Ses_Reponses/Gerer_Ses_Moderateurs/Voir_Ses_Statistiques" unique_id=52996949]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Decision" type="Button" parent="Assistant_Streameur/Choisir_Voix_IA/Regler_Vitesse_Voix/Regler_Ton_Voix/Choisir_Sexe_Voix/Choisir_Langue_Voix/Utiliser_Sa_Propre_Voix/Enregistrer_Echantillon/Ecouter_Echantillon/Valider_Ma_Voix/Reinitialiser_Voix/Choisir_Avatar_Predefini/Importer_Avatar_Personnel/Regler_Taille_Avatar/Choisir_Arriere_Plan/Choisir_Expression/Sans_Avatar/Supprimer_Avatar/Lien_Twitch/Lien_Discord/Lien_YouTube/Lien_X/Lien_Instagram/Lien_Site/Tout_Cacher/Voir_Mes_Donnees_Privees/Configurer_Sa_Chaine/Ses_Phrases/Voir_Ses_Reponses/Gerer_Ses_Moderateurs/Voir_Ses_Statistiques/Lier_Ses_Paiements" unique_id=599197053]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ASSISTANT BÉNÉVOLE" type="Control" parent="." unique_id=70910350]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Supprimer_Message" type="Button" parent="ASSISTANT BÉNÉVOLE" unique_id=182788639]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Silence_Temporaire" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message" unique_id=34234134]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Message_Retenue" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message/Silence_Temporaire" unique_id=2082777951]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Signaler_Au_Fondateur" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue" unique_id=1054366045]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Accueillir_Nouveaux" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_Au_Fondateur" unique_id=2100451233]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Rappeler_Regles" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_Au_Fondateur/Accueillir_Nouveaux" unique_id=1635798979]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Mode_Lent" type="Button" parent="ASSISTANT BÉNÉVOLE/Supprimer_Message/Silence_Temporaire/Valider_Message_Retenue/Signaler_Au_Fondateur/Accueillir_Nouveaux/Rappeler_Regles" unique_id=448033618]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Button" type="Button" parent="ASSISTANT BÉNÉVOLE" unique_id=1900914755]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="ASSISTANT VISITEURS" type="Control" parent="." unique_id=1773675040]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Accueil_Visiteur" type="Button" parent="ASSISTANT VISITEURS" unique_id=1614070981]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Infos_Chaine" type="Button" parent="ASSISTANT VISITEURS/Accueil_Visiteur" unique_id=1460314015]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Poser_Question" type="Button" parent="ASSISTANT VISITEURS/Accueil_Visiteur/Infos_Chaine" unique_id=1525256980]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Reponse_Automatique" type="Button" parent="ASSISTANT VISITEURS/Accueil_Visiteur/Infos_Chaine/Poser_Question" unique_id=396182306]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Choix_Affichage" type="Button" parent="ASSISTANT VISITEURS/Accueil_Visiteur/Infos_Chaine/Poser_Question/Reponse_Automatique" unique_id=816151140]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Signaler_Probleme" type="Button" parent="ASSISTANT VISITEURS/Accueil_Visiteur/Infos_Chaine/Poser_Question/Reponse_Automatique/Choix_Affichage" unique_id=1620648051]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Soutiens" type="Control" parent="." unique_id=1424713537]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Niveau1_4_99" type="Button" parent="Soutiens" unique_id=1063753936]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Niveau2_9_99" type="Button" parent="Soutiens/Niveau1_4_99" unique_id=1419215059]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Niveau3_24_99" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99" unique_id=720682733]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Niveau4_99" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99" unique_id=1572520626]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Niveau5_999" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99" unique_id=1531464858]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Niveau6_9891" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999" unique_id=1923410002]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Don_Libre" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891" unique_id=795740548]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Paiement_PayPal" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre" unique_id=225070123]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Paiement_Carte" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal" unique_id=1167574018]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Affichage_Public" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte" unique_id=1956335953]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Affichage_Discret" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public" unique_id=315484239]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lier_PayPal" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret" unique_id=1549971453]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lier_Carte" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret/Lier_PayPal" unique_id=1310304596]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Ses_Revenus" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret/Lier_PayPal/Lier_Carte" unique_id=774504913]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Historique_Paiements" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret/Lier_PayPal/Lier_Carte/Voir_Ses_Revenus" unique_id=375748791]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Voir_Totaux_Plateforme" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret/Lier_PayPal/Lier_Carte/Voir_Ses_Revenus/Historique_Paiements" unique_id=312590564]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Button" type="Button" parent="Soutiens/Niveau1_4_99/Niveau2_9_99/Niveau3_24_99/Niveau4_99/Niveau5_999/Niveau6_9891/Don_Libre/Paiement_PayPal/Paiement_Carte/Affichage_Public/Affichage_Discret/Lier_PayPal/Lier_Carte/Voir_Ses_Revenus/Historique_Paiements/Voir_Totaux_Plateforme" unique_id=1872198757]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Protection" type="Control" parent="." unique_id=1430955222]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Verification_Age" type="Button" parent="Protection" unique_id=124708066]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Demander_Accord_Parental" type="Button" parent="Protection/Verification_Age" unique_id=1414146866]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Signaler_Contenu_Inapte" type="Button" parent="Protection/Verification_Age/Demander_Accord_Parental" unique_id=1665525772]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Restreindre_Contenu" type="Button" parent="Protection/Verification_Age/Demander_Accord_Parental/Signaler_Contenu_Inapte" unique_id=660371385]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Parametres" type="Control" parent="." unique_id=505510546]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Modifier_Email" type="Button" parent="Parametres" unique_id=662044748]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Modifier_Mot_De_Passe" type="Button" parent="Parametres/Modifier_Email" unique_id=1744270198]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Lier_Compte_Externe" type="Button" parent="Parametres/Modifier_Email/Modifier_Mot_De_Passe" unique_id=2051759766]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Supprimer_Mon_Compte" type="Button" parent="Parametres/Modifier_Email/Modifier_Mot_De_Passe/Lier_Compte_Externe" unique_id=43673164]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Deconnexion" type="Button" parent="Parametres/Modifier_Email/Modifier_Mot_De_Passe/Lier_Compte_Externe/Supprimer_Mon_Compte" unique_id=1980081441]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Connexion" type="Control" parent="." unique_id=1445677954]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Champ_Pseudo" type="Button" parent="Connexion" unique_id=46073595]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Champ_Email" type="Button" parent="Connexion/Champ_Pseudo" unique_id=1980612080]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Champ_Telephone" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email" unique_id=475636933]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Btn_Recevoir_Code" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone" unique_id=1480258550]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Champ_Code" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone/Btn_Recevoir_Code" unique_id=1145940083]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Btn_Valider_Connexion" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone/Btn_Recevoir_Code/Champ_Code" unique_id=327812611]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Mot_De_Passe_Oublie" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone/Btn_Recevoir_Code/Champ_Code/Btn_Valider_Connexion" unique_id=1569619662]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Connexion_Avec_Code" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone/Btn_Recevoir_Code/Champ_Code/Btn_Valider_Connexion/Mot_De_Passe_Oublie" unique_id=339624462]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Connexion_Avec_Telephone" type="Button" parent="Connexion/Champ_Pseudo/Champ_Email/Champ_Telephone/Btn_Recevoir_Code/Champ_Code/Btn_Valider_Connexion/Mot_De_Passe_Oublie/Connexion_Avec_Code" unique_id=618519030]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Case_Accepter_Charte" type="CheckBox" parent="." unique_id=685584375]
+offset_right = 24.0
+offset_bottom = 24.0
+
+[node name="Lien_Lire_Charte" type="Button" parent="." unique_id=874530090]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Valider_Decision" type="Button" parent="." unique_id=405491468]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="charte_complete" type="Control" parent="." unique_id=670622414]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="charte_complete" unique_id=60262117]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+text = "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Article 1 — Respect de chacun
+Toute personne est la bienvenue, quel que soit son âge, son genre, son origine, son orientation ou ses croyances.
+Chacun mérite d'être traité avec politesse et bienveillance.
+Toute forme de discrimination, de haine ou de moquerie est interdite.
+Article 2 — Identité et prénoms
+Chacun est appelé comme il le souhaite.
+Si je ne sais pas quel prénom ou quelle forme utiliser, je demande en privé avant de parler.
+Je ne corrige personne publiquement, je ne fais pas de remarque sur l'apparence.
+Article 3 — Vie privée et protection
+Je ne partage pas de donnée personnelle dans le chat : nom réel, adresse, téléphone, mail, photos, liens privés.
+Je ne demande pas ces informations à qui que ce soit.
+Ce qui est dit en privé reste en privé.
+Article 4 — Échanges et modération
+Je respecte les décisions des modérateurs et du propriétaire.
+Je signale un problème en privé, pas en public.
+Je ne publie pas de lien sans autorisation.
+Je ne fais pas de publicité ou de promotion sans accord.
+Article 5 — Paiements et dons
+Les soutiens et dons sont libres et volontaires.
+Aucune donnée bancaire ne doit jamais être partagée dans le chat.
+Les paiements passent uniquement par les canaux officiels sécurisés.
+Aucune demande d'argent ne peut être faite en dehors de ces canaux.
+Article 6 — Rôle des assistants
+L'assistant rappelle la règle, il ne sanctionne pas.
+Seul le propriétaire de la plateforme ou de la chaîne peut prendre une décision de sanction.
+Toute situation difficile est transmise au propriétaire.
+Article 7 — Application
+En rejoignant Stream Unity ou une chaîne de la plateforme, j'accepte cette Charte.
+Je m'engage à la lire et à la respecter.
+Des rappels peuvent être affichés régulièrement pour que tout le monde soit au même niveau.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+La présente Charte vise à protéger chacun et à faire de cet espace un lieu sûr pour tous.
+Dernière mise à jour : 21 septembre 2026"
+
+[node name="Fermer_Charte" type="Button" parent="charte_complete" unique_id=1550573270]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
